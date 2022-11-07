@@ -66,7 +66,7 @@
                 LOGO
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-5 border border-dark">
             <div class="col-md-6 py-1 mx-auto text-center" style="border-style: dotted; border-color: blue;">
                 <div class="row">
                     <div class="col-md-3 py-5" style="border-style: dotted; border-color: red;">
@@ -83,6 +83,17 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row mt-5 border border-dark">
+            <div class="col-12 text-center" style="border-style: dotted; border-color: blue;">
+                newsletter
+            </div>
+            <div class="col-12">
+                <div class="col-md-4 mx-auto">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, iusto? Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+            
         </div>
     </div>
 
