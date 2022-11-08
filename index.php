@@ -27,6 +27,15 @@
         .slick-slide {
             height: inherit !important;
         }
+
+        .fa-brands {
+            outline: none;
+            box-shadow: none;
+        }
+
+        #enviar:hover {
+            background-color: yellow;
+        }
     </style>
 </head>
 <body>
@@ -38,16 +47,16 @@
             <div class="col-md-8">
                 <div class="row bg-black text-white">
                     <div class="col-md-3 py-3 text-center">
-                        <a href="#" class="btn outline-link text-white" style="decoration: none;"><h5>HOME</h5></a>
+                        <a href="#" class="btn outline-link text-white border-0" style="decoration: none;"><h5>HOME</h5></a>
                     </div>
                     <div class="col-md-3 py-3 text-center">
-                        <a href="#" class="btn outline-link text-white" style="decoration: none;"><h5>NOSOTROS</h5></a>
+                        <a href="#" class="btn outline-link text-white border-0" style="decoration: none;"><h5>NOSOTROS</h5></a>
                     </div>
                     <div class="col-md-3 py-3 text-center">
-                        <a href="#" class="btn outline-link text-white" style="decoration: none;"><h5>DIRECTORIO</h5></a>
+                        <a href="#" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO</h5></a>
                     </div>
                     <div class="col-md-3 py-3 text-center">
-                        <a href="#" class="btn outline-link text-white" style="decoration: none;"><h5>CONTACTO</h5></a>
+                        <a href="#" class="btn outline-link text-white border-0" style="decoration: none;"><h5>CONTACTO</h5></a>
                     </div>
                 </div>
             </div>
@@ -55,13 +64,13 @@
                 <h5>TEL. 3338096501</h5>
             </div>
             <div class="col-md-1 py-4 text-center">
-                <a href="#" class="btn outline-link p-0 shadow-none" style="decoration: none;">
+                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
                     <i class="fa-brands fa-whatsapp fa-xl px-1"></i>
                 </a>
-                <a href="#" class="btn outline-link p-0" style="decoration: none;">
+                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
                     <i class="fa-brands fa-facebook-f fa-xl px-1"></i>
                 </a>
-                <a href="#" class="btn outline-link p-0" style="decoration: none;">
+                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
                     <i class="fa-brands fa-instagram fa-xl px-1"></i>
                 </a>
             </div>
@@ -151,7 +160,7 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col-md-3 mx-auto">
-                        <input type="submit" class="form-control" style="background-color: red; color: black;">
+                        <input type="submit" id="enviar" class="form-control" style="background-color: red; color: black;">
                     </div>
                 </div>
             </div>
@@ -197,13 +206,13 @@
                             preguntas frecuentes
                         </div>
                         <div class="col-md-6 px-5 py-2 text-end">
-                            <a href="#" class="btn outline-link p-0 shadow-none" style="decoration: none;">
+                            <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
                                 <i class="fa-brands fa-whatsapp fa-2xl px-1" style="color: red;"></i>
                             </a>
-                            <a href="#" class="btn outline-link p-0" style="decoration: none;">
+                            <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
                                 <i class="fa-brands fa-facebook-f fa-2xl px-1" style="color: red;"></i>
                             </a>
-                            <a href="#" class="btn outline-link p-0" style="decoration: none;">
+                            <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
                                 <i class="fa-brands fa-instagram fa-2xl px-1" style="color: red;"></i>
                             </a>
                         </div>
