@@ -19,6 +19,14 @@
             color: white;
             outline: 0 !important;
         }
+
+        .slick-track {
+            display: flex !important;
+        }
+
+        .slick-slide {
+            height: inherit !important;
+        }
     </style>
 </head>
 <body>
@@ -32,49 +40,51 @@
                     <div class="col-md-3 py-3 text-center">
                         <a href="#" class="btn outline-link text-white" style="decoration: none;"><h5>HOME</h5></a>
                     </div>
-                    <div class="col-md-3 py-3">
+                    <div class="col-md-3 py-3 text-center">
                         <a href="#" class="btn outline-link text-white" style="decoration: none;"><h5>NOSOTROS</h5></a>
                     </div>
-                    <div class="col-md-3 py-3">
+                    <div class="col-md-3 py-3 text-center">
                         <a href="#" class="btn outline-link text-white" style="decoration: none;"><h5>DIRECTORIO</h5></a>
                     </div>
-                    <div class="col-md-3 py-3">
+                    <div class="col-md-3 py-3 text-center">
                         <a href="#" class="btn outline-link text-white" style="decoration: none;"><h5>CONTACTO</h5></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-1 py-4 text-center">
+            <div class="col-md-1 py-4 text-center p-0">
                 <h5>TEL. 3338096501</h5>
             </div>
-            <div class="col-md-1 py-4">
+            <div class="col-md-1 py-4 text-center">
                 <a href="#" class="btn outline-link p-0 shadow-none" style="decoration: none;">
-                    <i class="fa-brands fa-whatsapp fa-2xl px-1"></i>
+                    <i class="fa-brands fa-whatsapp fa-xl px-1"></i>
                 </a>
                 <a href="#" class="btn outline-link p-0" style="decoration: none;">
-                    <i class="fa-brands fa-facebook-f fa-2xl px-1"></i>
+                    <i class="fa-brands fa-facebook-f fa-xl px-1"></i>
                 </a>
                 <a href="#" class="btn outline-link p-0" style="decoration: none;">
-                    <i class="fa-brands fa-instagram fa-2xl px-1"></i>
+                    <i class="fa-brands fa-instagram fa-xl px-1"></i>
                 </a>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
+            <div class="col">
             <div id="carrusel">
                 <div>
-                    <img src="img/KIDS.jpg" alt="img-fluid" width="100%">
+                    <img src="img/KIDS.jpg" alt="img-fluid">
                 </div>
                 <div>
-                    <img src="img/45.jpg" alt="img-fluid" width="">
+                    <img src="img/45.jpg" alt="img-fluid">
                 </div>
+            </div>
             </div>
         </div>
         <div class="row px-5">
             <div class="col-md-4 mt-2 mb-2 px-1">
                 <img src="img/45.jpg" alt="">
             </div>
-            <div class="col-md-8 mt-2 mb-2 px-5">
+            <div class="col-md-8 col-xs-12 mt-2 mb-2 px-5">
                 <h1 class="display-4">TITULO AQUI</h1>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi voluptate reprehenderit! Iusto temporibus culpa sunt minus, quas tempora ipsum, ut fugit expedita rerum enim veritatis, sint debitis at accusantium? Illum quis dolore quae ab laboriosam, ullam quos modi eius.</h4>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas iste aspernatur amet laborum laboriosam veniam neque, aut inventore non veritatis voluptatem. Nesciunt quia a pariatur obcaecati quibusdam id tenetur deserunt quidem facere ratione reiciendis provident, vero, ipsam magni nam?</h4>
@@ -82,12 +92,12 @@
             </div>
         </div>
         <div class="row mt-5" style="background: #FAFAFA;">
-            <div class="col-md-2 mx-auto text-center">
+            <div class="col-md-2 col-xs-12 mx-auto text-center">
                 <h1 class="display-5">TITULO AQUI</h1>
             </div>
         </div>
         <div class="row" style="background: #FAFAFA;">
-            <div class="col-md-9 mx-auto">
+            <div class="col-md-9 col-xs-12 mx-auto">
             <h4>                
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi in quae sint suscipit temporibus. Tempora quasi modi dicta dolorum delectus iste facere quibusdam voluptatibus ut. Quia ullam quos eos. Molestiae?
             </h4>
@@ -101,16 +111,16 @@
         <div class="row mb-5" style="background: #FAFAFA;">
             <div class="col-md-6 py-1 mx-auto text-center">
                 <div class="row mb-5">
-                    <div class="col-md-3 py-5" style="border-style: dotted; border-color: red;">
+                    <div class="col-md-3 py-5">
                         <img src="..." class="rounded-circle bg-warning py-5 px-5" alt="...">
                     </div>
-                    <div class="col-md-3 py-5" style="border-style: dotted; border-color: red;">
+                    <div class="col-md-3 py-5">
                         <img src="..." class="rounded-circle bg-warning py-5 px-5" alt="...">
                     </div>
-                    <div class="col-md-3 py-5" style="border-style: dotted; border-color: red;">
+                    <div class="col-md-3 py-5">
                         <img src="..." class="rounded-circle bg-warning py-5 px-5" alt="...">
                     </div>
-                    <div class="col-md-3 py-5" style="border-style: dotted; border-color: red;">
+                    <div class="col-md-3 py-5">
                         <img src="..." class="rounded-circle bg-warning py-5 px-5" alt="...">
                     </div>
                 </div>
@@ -126,7 +136,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-3">
             <div class="col-md-5 mx-auto">
                 <div class="row">
                     <div class="col-md-4 mx-auto">
@@ -187,9 +197,15 @@
                             preguntas frecuentes
                         </div>
                         <div class="col-md-6 px-5 py-2 text-end">
-                            <i class="fa-brands fa-whatsapp fa-2xl px-2" style="color: red;"></i>
-                            <i class="fa-brands fa-facebook-f fa-2xl px-2" style="color: red;"></i>
-                            <i class="fa-brands fa-instagram fa-2xl px-2" style="color: red;"></i>
+                            <a href="#" class="btn outline-link p-0 shadow-none" style="decoration: none;">
+                                <i class="fa-brands fa-whatsapp fa-2xl px-1" style="color: red;"></i>
+                            </a>
+                            <a href="#" class="btn outline-link p-0" style="decoration: none;">
+                                <i class="fa-brands fa-facebook-f fa-2xl px-1" style="color: red;"></i>
+                            </a>
+                            <a href="#" class="btn outline-link p-0" style="decoration: none;">
+                                <i class="fa-brands fa-instagram fa-2xl px-1" style="color: red;"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -211,7 +227,32 @@
             infinite: true,
             speed: 300,
             slidesToShow: 1,
-            adaptiveHeight: true
+            adaptiveHeight: true,
+            responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+            }
+            }
+            ]
         });
     </script>
 </body>
