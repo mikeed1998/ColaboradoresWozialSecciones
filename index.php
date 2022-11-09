@@ -10,14 +10,18 @@
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css"/>
     <style>
-        .form-control::placeholder {
-            color: white;
-        }
-
         .form-control:focus {
             background-color: black;
             color: white;
             outline: 0 !important;
+        }
+
+        .form-control::placeholder {
+            color: white;
+        }
+
+        .form-control {
+            color: white;
         }
 
         .slick-track {
@@ -42,21 +46,21 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2 text-center">
-                <img src="img/APF_LOGO.png" alt="img-fluid" width="50%">
+                <a href="#"><img src="img/APF_LOGO.png" alt="img-fluid" width="50%"></a>
             </div>
             <div class="col-md-8">
                 <div class="row bg-black text-white">
                     <div class="col-md-3 py-3 text-center">
-                        <a href="#" class="btn outline-link text-white border-0" style="decoration: none;"><h5>HOME</h5></a>
+                        <a href="index.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>HOME</h5></a>
                     </div>
                     <div class="col-md-3 py-3 text-center">
-                        <a href="#" class="btn outline-link text-white border-0" style="decoration: none;"><h5>NOSOTROS</h5></a>
+                        <a href="nosotros.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>NOSOTROS</h5></a>
                     </div>
                     <div class="col-md-3 py-3 text-center">
-                        <a href="#" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO</h5></a>
+                        <a href="directorio.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO</h5></a>
                     </div>
                     <div class="col-md-3 py-3 text-center">
-                        <a href="#" class="btn outline-link text-white border-0" style="decoration: none;"><h5>CONTACTO</h5></a>
+                        <a href="contacto.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>CONTACTO</h5></a>
                     </div>
                 </div>
             </div>
@@ -78,26 +82,30 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
-            <div id="carrusel">
-                <div>
-                    <img src="img/KIDS.jpg" alt="img-fluid">
+            <div class="col col-sm-12 px-0">
+                <div id="carrusel">
+                    <div>
+                        <img src="img/KIDS.jpg" alt="img-fluid w-100" style="min-width: 100%; height: auto; display: block;">
+                    </div>
+                    <div>
+                        <img src="img/45.jpg" alt="img-fluid">
+                    </div>
                 </div>
-                <div>
-                    <img src="img/45.jpg" alt="img-fluid">
-                </div>
-            </div>
             </div>
         </div>
-        <div class="row px-5">
-            <div class="col-md-4 mt-2 mb-2 px-1">
-                <img src="img/45.jpg" alt="">
-            </div>
-            <div class="col-md-8 col-xs-12 mt-2 mb-2 px-5">
-                <h1 class="display-4">TITULO AQUI</h1>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi voluptate reprehenderit! Iusto temporibus culpa sunt minus, quas tempora ipsum, ut fugit expedita rerum enim veritatis, sint debitis at accusantium? Illum quis dolore quae ab laboriosam, ullam quos modi eius.</h4>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas iste aspernatur amet laborum laboriosam veniam neque, aut inventore non veritatis voluptatem. Nesciunt quia a pariatur obcaecati quibusdam id tenetur deserunt quidem facere ratione reiciendis provident, vero, ipsam magni nam?</h4>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque minima autem rem vel? Placeat, harum?</h4>
+        <div class="row">
+            <div class="col-md-9 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 mt-2 mb-2">
+                        <img src="img/45.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 mt-5 mb-2">
+                        <h1 class="display-4">TITULO AQUI</h1>
+                        <h4 style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi voluptate reprehenderit! Iusto temporibus culpa sunt minus, quas tempora ipsum, ut fugit expedita rerum enim veritatis, sint debitis at accusantium? Illum quis dolore quae ab laboriosam, ullam quos modi eius.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas iste aspernatur amet laborum laboriosam veniam neque, aut inventore non veritatis voluptatem.</h4>
+                        <h4 style="text-align: justify;">Nesciunt quia a pariatur obcaecati quibusdam id tenetur deserunt quidem facere ratione reiciendis provident, vero, ipsam magni nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque minima autem rem vel? Placeat, harum?</h4>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row mt-5" style="background: #FAFAFA;">
@@ -106,7 +114,7 @@
             </div>
         </div>
         <div class="row" style="background: #FAFAFA;">
-            <div class="col-md-9 col-xs-12 mx-auto">
+            <div class="col-md-9 col-xs-12 mx-auto text-center">
             <h4>                
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi in quae sint suscipit temporibus. Tempora quasi modi dicta dolorum delectus iste facere quibusdam voluptatibus ut. Quia ullam quos eos. Molestiae?
             </h4>
@@ -118,19 +126,27 @@
             </div>
         </div>
         <div class="row mb-5" style="background: #FAFAFA;">
-            <div class="col-md-6 py-1 mx-auto text-center">
+            <div class="col-md-9 py-1 mx-auto text-center">
                 <div class="row mb-5">
                     <div class="col-md-3 py-5">
-                        <img src="..." class="rounded-circle bg-warning py-5 px-5" alt="...">
+                        <div class="col-12"><img src="img/APFpsd_12.png" class="img-fluid rounded-circle bg-warning py-5 px-5" alt="..."></div>
+                        <div class="col-12"><h2>titulo</h2></div>
+                        <div class="col-12"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p></div> 
                     </div>
                     <div class="col-md-3 py-5">
-                        <img src="..." class="rounded-circle bg-warning py-5 px-5" alt="...">
+                        <img src="img/APFpsd_09.png" class="rounded-circle bg-warning py-5 px-5" alt="...">
+                        <h2>titulo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p>
                     </div>
                     <div class="col-md-3 py-5">
-                        <img src="..." class="rounded-circle bg-warning py-5 px-5" alt="...">
+                        <img src="img/APFpsd_06.png" class="rounded-circle bg-warning py-5 px-5" alt="...">
+                        <h2>titulo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p>
                     </div>
                     <div class="col-md-3 py-5">
-                        <img src="..." class="rounded-circle bg-warning py-5 px-5" alt="...">
+                        <img src="img/APFpsd_03.png" class="rounded-circle bg-warning py-5 px-5" alt="...">
+                        <h2>titulo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p>
                     </div>
                 </div>
             </div>
@@ -140,30 +156,34 @@
                 <h2>newsletter</h2>
             </div>
             <div class="col-12">
-                <div class="col-md-6 mx-auto text-center">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, iusto? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, harum.
+                <div class="col-md-4 mx-auto text-center">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, iusto? Lorem ipsum dolor sit amet.</h5>
                 </div>
             </div>
         </div>
         <div class="row mt-3">
-            <div class="col-md-5 mx-auto">
+            <form action="datos.php" method="POST">
+            <div class="col-md-6 mx-auto">
                 <div class="row">
-                    <div class="col-md-4 mx-auto">
-                        <input type="text" class="form-control bg-black" placeholder="Nombre: ">
+                    <div class="col-md-4 px-3 mx-auto">
+                        <input type="text" name="nombre" class="form-control form-control-lg bg-black" placeholder="Nombre: ">
                     </div>
-                    <div class="col-md-4 mx-auto">
-                        <input type="text" class="form-control bg-black" placeholder="Correo: ">
+                    <div class="col-md-4 px-3 mx-auto">
+                        <input type="email" name="correo" class="form-control form-control-lg bg-black" placeholder="Correo: ">
                     </div>
-                    <div class="col-md-4 mx-auto">
-                        <input type="text" class="form-control bg-black" placeholder="whatsapp">
+                    <div class="col-md-4 px-3 mx-auto">
+                        <input type="number" name="whatsapp" class="form-control form-control-lg bg-black" placeholder="whatsapp">
                     </div>
                 </div>
                 <div class="row mt-3">
                     <div class="col-md-3 mx-auto">
-                        <input type="submit" id="enviar" class="form-control" style="background-color: red; color: black;">
+                        <input type="submit" id="enviar" class="form-control form-control-lg btn-lg" style="background-color: red; color: black;">
+                        <!-- <button type="submit" id="enviar" class="btn btn-lg w-100" style="background-color: red; color: black;">Enviar</button> -->
+                        <!-- <a href="#" id="enviar" class="btn btn-lg w-100" style="background-color: red; color: black;">Enviar</a> -->
                     </div>
                 </div>
             </div>
+        </form>
         </div>
     </div>
 
@@ -175,13 +195,13 @@
                         <div class="col-md-6 px-5 text-white text-start">
                             <div class="row">
                                 <div class="col-12">
-                                    <p class="display-6">Home</p>
+                                    <p class="display-6"><a href="#" style="text-decoration: none; color: inherit;">Home</a></p>
                                 </div>
                                 <div class="col-12">
-                                    <p class="display-6">DIRECTORIO</p>
+                                    <p class="display-6"><a href="#" style="text-decoration: none; color: inherit;">DIRECTORIO</a></p>
                                 </div>
                                 <div class="col-12">
-                                    <p class="display-6">Contacto</p>
+                                    <p class="display-6"><a href="#" style="text-decoration: none; color: inherit;">Contacto</a></p>
                                 </div>
                             </div>
                         </div>
