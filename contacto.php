@@ -72,7 +72,7 @@
         <div class="container">
             <div class="row" style="border-style: double;">
                 <div class="col-md-2 mx-auto text-center" style="border-style: dotted;">
-                    logo
+                    <img src="img/index.jpg" alt="img-fluid" width="75%">
                 </div>
             </div>
             <div class="row" style="border-style: double;">
