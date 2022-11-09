@@ -104,7 +104,7 @@
                         <div class="row mt-2 mb-2">
                             <div class="col-md-12 px-3 mx-auto">
                                 <div class="form-floating">
-                                    <textarea class="form-control bg-black text-white" name="mensajeC" id="mensaje" style="height: 100px" placeholder="Mensaje"></textarea>
+                                    <textarea class="form-control form-control-lg bg-black text-white" name="mensajeC" id="mensaje" style="height: 100px" placeholder="Mensaje"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -115,12 +115,6 @@
                         </div>
                     </div>
                 </form>
-            </div>
-            <div class="row" style="border-style: double;">
-
-            </div>
-            <div class="row" style="border-style: double;">
-
             </div>
         </div>
     </main>
