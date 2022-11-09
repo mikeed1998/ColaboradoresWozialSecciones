@@ -23,6 +23,10 @@
         .form-control {
             color: white;
         }
+
+        #mensaje::placeholder {
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -88,23 +92,25 @@
                     <div class="col-md-6 mx-auto">
                         <div class="row">
                             <div class="col-md-4 px-3 mx-auto">
-                                <input type="text" name="nombre" class="form-control form-control-lg bg-black" placeholder="Nombre: ">
+                                <input type="text" name="nombreC" class="form-control form-control-lg bg-black" placeholder="Nombre: ">
                             </div>
                             <div class="col-md-4 px-3 mx-auto">
-                                <input type="email" name="correo" class="form-control form-control-lg bg-black" placeholder="Correo: ">
+                                <input type="email" name="correoC" class="form-control form-control-lg bg-black" placeholder="Correo: ">
                             </div>
                             <div class="col-md-4 px-3 mx-auto">
-                                <input type="number" name="whatsapp" class="form-control form-control-lg bg-black" placeholder="whatsapp">
+                                <input type="number" name="whatsappC" class="form-control form-control-lg bg-black" placeholder="whatsapp">
                             </div>
                         </div>
                         <div class="row mt-2 mb-2">
                             <div class="col-md-12 px-3 mx-auto">
-                                <textarea class="form-control form-control-lg bg-black" name="mensaje" id="" cols="30" rows="10"></textarea>
+                                <div class="form-floating">
+                                    <textarea class="form-control bg-black text-white" name="mensajeC" id="mensaje" style="height: 100px" placeholder="Mensaje"></textarea>
+                                </div>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-3 mx-auto">
-                                <input type="submit" id="enviar" class="form-control form-control-lg btn-lg" style="background-color: red; color: black;" placeholder="Mensaje">
+                                <input type="submit" id="enviarC" class="form-control form-control-lg btn-lg" style="background-color: red; color: black;" placeholder="Mensaje">
                             </div>
                         </div>
                     </div>
