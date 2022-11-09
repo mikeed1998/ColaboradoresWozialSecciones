@@ -134,19 +134,19 @@
                         <div class="col-12"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p></div> 
                     </div>
                     <div class="col-md-3 py-5">
-                        <img src="img/APFpsd_09.png" class="rounded-circle bg-warning py-5 px-5" alt="...">
-                        <h2>titulo</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p>
+                        <div class="col-12"><img src="img/APFpsd_09.png" class="img-fluid rounded-circle bg-warning py-5 px-5" alt="..."></div>
+                        <div class="col-12"><h2>titulo</h2></div>
+                        <div class="col-12"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p></div> 
                     </div>
                     <div class="col-md-3 py-5">
-                        <img src="img/APFpsd_06.png" class="rounded-circle bg-warning py-5 px-5" alt="...">
-                        <h2>titulo</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p>
+                        <div class="col-12"><img src="img/APFpsd_06.png" class="img-fluid rounded-circle bg-warning py-5 px-5" alt="..."></div>
+                        <div class="col-12"><h2>titulo</h2></div>
+                        <div class="col-12"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p></div> 
                     </div>
                     <div class="col-md-3 py-5">
-                        <img src="img/APFpsd_03.png" class="rounded-circle bg-warning py-5 px-5" alt="...">
-                        <h2>titulo</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p>
+                        <div class="col-12"><img src="img/APFpsd_03.png" class="img-fluid rounded-circle bg-warning py-5 px-5" alt="..."></div>
+                        <div class="col-12"><h2>titulo</h2></div>
+                        <div class="col-12"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p></div> 
                     </div>
                 </div>
             </div>

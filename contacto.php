@@ -9,6 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css"/>
+    <style>
+        .form-control:focus {
+            background-color: black;
+            color: white;
+            outline: 0 !important;
+        }
+
+        .form-control::placeholder {
+            color: white;
+        }
+
+        .form-control {
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid">
@@ -49,7 +64,60 @@
         </div>
     </div>
     
-    
+    <main class="principal" style="border-style: dashed;">
+        <div class="container">
+            <div class="row" style="border-style: double;">
+                <div class="col-md-2 mx-auto text-center" style="border-style: dotted;">
+                    logo
+                </div>
+            </div>
+            <div class="row" style="border-style: double;">
+                <div class="col-md-9 mx-auto text-center" style="border-style: dotted;">
+                    <h1 class="display-3">¡Estamos para apoyarte!</h1>
+                </div>
+            </div>
+            <div class="row" style="border-style: double;">
+                <div class="col-md-6 mx-auto text-center" style="border-style: dotted;">
+                    <p class="" style="text-align: inherit; vertical-align: inherit;">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae quis corrupti ducimus libero laborum quaerat. Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="border-style: double;">
+                <form action="datosC.php" method="POST">
+                    <div class="col-md-6 mx-auto">
+                        <div class="row">
+                            <div class="col-md-4 px-3 mx-auto">
+                                <input type="text" name="nombre" class="form-control form-control-lg bg-black" placeholder="Nombre: ">
+                            </div>
+                            <div class="col-md-4 px-3 mx-auto">
+                                <input type="email" name="correo" class="form-control form-control-lg bg-black" placeholder="Correo: ">
+                            </div>
+                            <div class="col-md-4 px-3 mx-auto">
+                                <input type="number" name="whatsapp" class="form-control form-control-lg bg-black" placeholder="whatsapp">
+                            </div>
+                        </div>
+                        <div class="row mt-2 mb-2">
+                            <div class="col-md-12 px-3 mx-auto">
+                                <textarea class="form-control form-control-lg bg-black" name="mensaje" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-3 mx-auto">
+                                <input type="submit" id="enviar" class="form-control form-control-lg btn-lg" style="background-color: red; color: black;" placeholder="Mensaje">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row" style="border-style: double;">
+
+            </div>
+            <div class="row" style="border-style: double;">
+
+            </div>
+        </div>
+    </main>
 
     <footer class="footer mt-5 bg-black">
         <div class="container-fluid bg-black py-3">
