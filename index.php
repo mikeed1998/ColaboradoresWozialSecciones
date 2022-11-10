@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APF</title>
+    <title>APF - Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
@@ -44,11 +44,11 @@
 </head>
 <body>
     <div class="container-fluid">
-    <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3">
             <div class="col-md-11 mx-auto">
                 <div class="row">
                     <div class="col-md-2 text-center">
-                        <a href="#"><img src="img/APF_LOGO.png" alt="img-fluid" width="50%"></a>
+                        <a href="index.php"><img src="img/APF_LOGO.png" alt="img-fluid" width="50%"></a>
                     </div>
                     <div class="col-md-8">
                         <div class="row bg-black text-white">
@@ -59,7 +59,7 @@
                                 <a href="nosotros.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>NOSOTROS</h5></a>
                             </div>
                             <div class="col-md-3 py-1 text-center">
-                                <a href="directorio.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO</h5></a>
+                                <a href="directorio.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO COMERCIAL</h5></a>
                             </div>
                             <div class="col-md-3 py-1 text-center">
                                 <a href="contacto.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>CONTACTO</h5></a>
@@ -104,23 +104,22 @@
                         <img src="img/45.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-md-6 mt-5 mb-2">
-                        <h1 class="display-4">TITULO AQUI</h1>
-                        <h4 style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi voluptate reprehenderit! Iusto temporibus culpa sunt minus, quas tempora ipsum, ut fugit expedita rerum enim veritatis, sint debitis at accusantium? Illum quis dolore quae ab laboriosam, ullam quos modi eius.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas iste aspernatur amet laborum laboriosam veniam neque, aut inventore non veritatis voluptatem.</h4>
-                        <h4 style="text-align: justify;">Nesciunt quia a pariatur obcaecati quibusdam id tenetur deserunt quidem facere ratione reiciendis provident, vero, ipsam magni nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque minima autem rem vel? Placeat, harum?</h4>
+                        <h1 class="display-4 py-2">NUESTRA PROPUESTA</h1>
+                        <h4 style="text-align: justify;">En la APF buscamos fomentar el Networking con los Padres de Familia con la finalidad de ampliar la red de contactos profesionales y de esta forma
+generar oportunidades de negocio y/o empleo dentro de nuestra comunidad.</h4>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row mt-5" style="background: #FAFAFA;">
             <div class="col-md-2 col-xs-12 mx-auto text-center">
-                <h1 class="display-5">TITULO AQUI</h1>
+                <h1 class="display-5">BENEFICIOS</h1>
             </div>
         </div>
         <div class="row" style="background: #FAFAFA;">
             <div class="col-md-9 col-xs-12 mx-auto text-center">
             <h4>                
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi in quae sint suscipit temporibus. Tempora quasi modi dicta dolorum delectus iste facere quibusdam voluptatibus ut. Quia ullam quos eos. Molestiae?
+                Estos son los beneficios que obtendrás al unirte a nuestra comunidad
             </h4>
             </div>
         </div>
