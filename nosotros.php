@@ -12,44 +12,97 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2 text-center">
-                <a href="#"><img src="img/APF_LOGO.png" alt="img-fluid" width="50%"></a>
-            </div>
-            <div class="col-md-8">
-                <div class="row bg-black text-white">
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="index.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>HOME</h5></a>
+    <div class="row mt-3">
+            <div class="col-md-11 mx-auto">
+                <div class="row">
+                    <div class="col-md-2 text-center">
+                        <a href="#"><img src="img/APF_LOGO.png" alt="img-fluid" width="50%"></a>
                     </div>
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="nosotros.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>NOSOTROS</h5></a>
+                    <div class="col-md-8">
+                        <div class="row bg-black text-white">
+                            <div class="col-md-3 py-1 text-center">
+                                <a href="index.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>HOME</h5></a>
+                            </div>
+                            <div class="col-md-3 py-1 text-center">
+                                <a href="nosotros.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>NOSOTROS</h5></a>
+                            </div>
+                            <div class="col-md-3 py-1 text-center">
+                                <a href="directorio.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO</h5></a>
+                            </div>
+                            <div class="col-md-3 py-1 text-center">
+                                <a href="contacto.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>CONTACTO</h5></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="directorio.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO</h5></a>
+                    <div class="col-md-1 py-3 text-center p-0">
+                        <h6>TEL. 3338096501</h6>
                     </div>
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="contacto.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>CONTACTO</h5></a>
+                    <div class="col-md-1 py-2 text-center">
+                        <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
+                            <i class="fa-brands fa-whatsapp fa-xl px-1"></i>
+                        </a>
+                        <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
+                            <i class="fa-brands fa-facebook-f fa-xl px-1"></i>
+                        </a>
+                        <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
+                            <i class="fa-brands fa-instagram fa-xl px-1"></i>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-1 py-4 text-center p-0">
-                <h5>TEL. 3338096501</h5>
-            </div>
-            <div class="col-md-1 py-4 text-center">
-                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
-                    <i class="fa-brands fa-whatsapp fa-xl px-1"></i>
-                </a>
-                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
-                    <i class="fa-brands fa-facebook-f fa-xl px-1"></i>
-                </a>
-                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
-                    <i class="fa-brands fa-instagram fa-xl px-1"></i>
-                </a>
             </div>
         </div>
     </div>
     
-    
+    <main class="principal">
+        <div class="container-fluid" style="border-style: dashed;">
+            <div class="row" style="border-style: double;">
+                <div class="col-md-6   text-center border border-dark">
+                    <img src="img/2.jpg" alt="imagen" class="img-fluid w-75">
+                </div>
+                <div class="col-md-6 py-5 border border-dark">
+                    <div class="row py-5" style="border-style: double;">
+                        <div class="col-md-3 py-3 mx-auto">
+                            <img src="img/APF_LOGO.png" alt="" class="img-fluid w-75">
+                        </div>
+                    </div>
+                    <div class="row" style="border-style: double;">
+                        <div class="col-md-9 text-start mx-auto ">
+                            <h1 class="display-3" style="text-align: justify;">PROPUESTA DE VALOR</h1>
+                        </div>
+                    </div>
+                    <div class="row" style="border-style: double;">
+                        <div class="col-md-12" style="text-align: justify;">
+                            <h6 class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda temporibus inventore labore dolores cupiditate minima consequuntur tenetur vel recusandae. Deserunt! </h6>
+                            <h6 class="py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, numquam porro! Rem repudiandae architecto magni modi, voluptatem inventore corporis molestiae! </h6>
+                            <h6 class="py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, sapiente dolorum pariatur nisi in eveniet atque, eum, tenetur totam neque impedit id quos laborum! Est quia nemo eveniet? Ipsam, hic. </h6>
+                            <h6 class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed porro. Omnis, soluta assumenda quaerat eligendi laboriosam repudiandae explicabo aliquid. </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-5 mt-5" style="border-style: double;">
+                <div class="col-12">
+                    <div class="row py-2" style="border-style: double;">
+                        <div class="col-md-6 mx-auto text-center border border-dark">
+                            <h1 class="display-3">¿Quieres más detalles?</h1>
+                        </div>
+                    </div>
+                    <div class="row py-3" style="border-style: double;">
+                        <div class="col-md-6 mx-auto text-center border border-dark">
+                            <h5>Si quieres saber más da click en el botón y descargar nuestra presentación</h5>
+                        </div>
+                    </div>
+                    <div class="row py-2" style="border-style: double;">
+                        <div class="col-md-2 mx-auto text-center border border-dark">
+                            <button class="btn btn-outline text-black py-2 px-4" style="background: red;">
+                                <h3>DESCARGAR</h3>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer class="footer mt-5 bg-black">
         <div class="container-fluid bg-black py-3">

@@ -31,65 +31,69 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2 text-center">
-                <a href="#"><img src="img/APF_LOGO.png" alt="img-fluid" width="50%"></a>
-            </div>
-            <div class="col-md-8">
-                <div class="row bg-black text-white">
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="index.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>HOME</h5></a>
+        <div class="row mt-3 mb-3">
+            <div class="col-md-11 mx-auto">
+                <div class="row">
+                    <div class="col-md-2 text-center">
+                        <a href="#"><img src="img/APF_LOGO.png" alt="img-fluid" width="60%"></a>
                     </div>
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="nosotros.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>NOSOTROS</h5></a>
+                    <div class="col-md-8">
+                        <div class="row bg-black text-white">
+                            <div class="col-md-3 py-2 text-center">
+                                <a href="index.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>HOME</h5></a>
+                            </div>
+                            <div class="col-md-3 py-2 text-center">
+                                <a href="nosotros.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>NOSOTROS</h5></a>
+                            </div>
+                            <div class="col-md-3 py-2 text-center">
+                                <a href="directorio.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO</h5></a>
+                            </div>
+                            <div class="col-md-3 py-2 text-center">
+                                <a href="contacto.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>CONTACTO</h5></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="directorio.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO</h5></a>
+                    <div class="col-md-1 py-3 text-center p-0">
+                        <h6>TEL. 3338096501</h6>
                     </div>
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="contacto.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>CONTACTO</h5></a>
+                    <div class="col-md-1 py-3 text-center">
+                        <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
+                            <i class="fa-brands fa-whatsapp fa-xl px-1"></i>
+                        </a>
+                        <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
+                            <i class="fa-brands fa-facebook-f fa-xl px-1"></i>
+                        </a>
+                        <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
+                            <i class="fa-brands fa-instagram fa-xl px-1"></i>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-1 py-4 text-center p-0">
-                <h5>TEL. 3338096501</h5>
-            </div>
-            <div class="col-md-1 py-4 text-center">
-                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
-                    <i class="fa-brands fa-whatsapp fa-xl px-1"></i>
-                </a>
-                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
-                    <i class="fa-brands fa-facebook-f fa-xl px-1"></i>
-                </a>
-                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
-                    <i class="fa-brands fa-instagram fa-xl px-1"></i>
-                </a>
             </div>
         </div>
     </div>
     
-    <main class="principal" style="border-style: dashed;">
+    <main class="principal">
         <div class="container">
-            <div class="row" style="border-style: double;">
-                <div class="col-md-2 mx-auto text-center" style="border-style: dotted;">
-                    <img src="img/index.jpg" alt="img-fluid" width="75%">
+            <div class="row py-5">
+                <div class="col-md-2 mx-auto text-center">
+                    <img src="img/APF_LOGO.png" alt="img-fluid" width="75%">
                 </div>
             </div>
-            <div class="row" style="border-style: double;">
-                <div class="col-md-9 mx-auto text-center" style="border-style: dotted;">
-                    <h1 class="display-3">¡Estamos para apoyarte!</h1>
+            <div class="row">
+                <div class="col-md-9 mx-auto text-center" >
+                    <h1 class="display-2">¡Estamos para apoyarte!</h1>
                 </div>
             </div>
-            <div class="row" style="border-style: double;">
-                <div class="col-md-6 mx-auto text-center" style="border-style: dotted;">
-                    <p class="" style="text-align: inherit; vertical-align: inherit;">
+            <div class="row py-3">
+                <div class="col-md-6 mx-auto text-center">
+                    <h6 class="" style="text-align: inherit; vertical-align: inherit;">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae quis corrupti ducimus libero laborum quaerat. Lorem ipsum dolor sit amet.
-                    </p>
+                    </h6>
                 </div>
             </div>
-            <div class="row" style="border-style: double;">
+            <div class="row py-3">
                 <form action="datosC.php" method="POST">
-                    <div class="col-md-6 mx-auto">
+                    <div class="col-md-9 mx-auto">
                         <div class="row">
                             <div class="col-md-4 px-3 mx-auto">
                                 <input type="text" name="nombreC" class="form-control form-control-lg bg-black" placeholder="Nombre: ">
@@ -110,7 +114,7 @@
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-3 mx-auto">
-                                <input type="submit" id="enviarC" class="form-control form-control-lg btn-lg" style="background-color: red; color: black;" placeholder="Mensaje">
+                                <input type="submit" id="enviarC" class="form-control form-control-lg btn-lg py-3" style="background-color: red; color: black;" placeholder="Mensaje">
                             </div>
                         </div>
                     </div>

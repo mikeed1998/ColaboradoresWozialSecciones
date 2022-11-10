@@ -44,39 +44,43 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2 text-center">
-                <a href="#"><img src="img/APF_LOGO.png" alt="img-fluid" width="50%"></a>
-            </div>
-            <div class="col-md-8">
-                <div class="row bg-black text-white">
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="index.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>HOME</h5></a>
+    <div class="row mt-3 mb-3">
+            <div class="col-md-11 mx-auto">
+                <div class="row">
+                    <div class="col-md-2 text-center">
+                        <a href="#"><img src="img/APF_LOGO.png" alt="img-fluid" width="50%"></a>
                     </div>
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="nosotros.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>NOSOTROS</h5></a>
+                    <div class="col-md-8">
+                        <div class="row bg-black text-white">
+                            <div class="col-md-3 py-1 text-center">
+                                <a href="index.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>HOME</h5></a>
+                            </div>
+                            <div class="col-md-3 py-1 text-center">
+                                <a href="nosotros.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>NOSOTROS</h5></a>
+                            </div>
+                            <div class="col-md-3 py-1 text-center">
+                                <a href="directorio.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO</h5></a>
+                            </div>
+                            <div class="col-md-3 py-1 text-center">
+                                <a href="contacto.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>CONTACTO</h5></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="directorio.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>DIRECTORIO</h5></a>
+                    <div class="col-md-1 py-3 text-center p-0">
+                        <h6>TEL. 3338096501</h6>
                     </div>
-                    <div class="col-md-3 py-3 text-center">
-                        <a href="contacto.php" class="btn outline-link text-white border-0" style="decoration: none;"><h5>CONTACTO</h5></a>
+                    <div class="col-md-1 py-2 text-center">
+                        <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
+                            <i class="fa-brands fa-whatsapp fa-xl px-1"></i>
+                        </a>
+                        <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
+                            <i class="fa-brands fa-facebook-f fa-xl px-1"></i>
+                        </a>
+                        <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
+                            <i class="fa-brands fa-instagram fa-xl px-1"></i>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-1 py-4 text-center p-0">
-                <h5>TEL. 3338096501</h5>
-            </div>
-            <div class="col-md-1 py-4 text-center">
-                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
-                    <i class="fa-brands fa-whatsapp fa-xl px-1"></i>
-                </a>
-                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
-                    <i class="fa-brands fa-facebook-f fa-xl px-1"></i>
-                </a>
-                <a href="#" class="btn outline-link p-0 border-0" style="decoration: none;">
-                    <i class="fa-brands fa-instagram fa-xl px-1"></i>
-                </a>
             </div>
         </div>
     </div>
@@ -122,7 +126,7 @@
         </div>
         <div class="row" style="background: #FAFAFA;">
             <div class="col-md-2 py-5 mx-auto text-center">
-                <img src="img/APF_LOGO.png" alt="img-fluid" width="50%">
+                <img src="img/APF_LOGO.png" alt="img-fluid" width="60%">
             </div>
         </div>
         <div class="row mb-5" style="background: #FAFAFA;">
@@ -153,7 +157,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-12 text-center">
-                <h2>newsletter</h2>
+                <h1 class="display-2 fw-2">newsletter</h1>
             </div>
             <div class="col-12">
                 <div class="col-md-4 mx-auto text-center">
@@ -161,23 +165,23 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-3">
+        <div class="row mt-3 p-4">
             <form action="datos.php" method="POST">
             <div class="col-md-6 mx-auto">
                 <div class="row">
                     <div class="col-md-4 px-3 mx-auto">
-                        <input type="text" name="nombre" class="form-control form-control-lg bg-black" placeholder="Nombre: ">
+                        <input type="text" name="nombre" class="form-control form-control-lg bg-black py-3" placeholder="Nombre: ">
                     </div>
                     <div class="col-md-4 px-3 mx-auto">
-                        <input type="email" name="correo" class="form-control form-control-lg bg-black" placeholder="Correo: ">
+                        <input type="email" name="correo" class="form-control form-control-lg bg-black py-3" placeholder="Correo: ">
                     </div>
                     <div class="col-md-4 px-3 mx-auto">
-                        <input type="number" name="whatsapp" class="form-control form-control-lg bg-black" placeholder="whatsapp">
+                        <input type="number" name="whatsapp" class="form-control form-control-lg bg-black py-3" placeholder="whatsapp">
                     </div>
                 </div>
                 <div class="row mt-3">
                     <div class="col-md-3 mx-auto">
-                        <input type="submit" id="enviar" class="form-control form-control-lg btn-lg" style="background-color: red; color: black;">
+                        <input type="submit" id="enviar" class="form-control form-control-lg btn-lg py-3" style="background-color: red; color: black;">
                         <!-- <button type="submit" id="enviar" class="btn btn-lg w-100" style="background-color: red; color: black;">Enviar</button> -->
                         <!-- <a href="#" id="enviar" class="btn btn-lg w-100" style="background-color: red; color: black;">Enviar</a> -->
                     </div>

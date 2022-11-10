@@ -57,6 +57,11 @@
                 </div>
             </div>
         </div>
+
+        style="border-style: dashed;"
+        style="border-style: double;"
+        style="border-style: dotted;"
+
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
                 <a class="navbar-brand" href="#">
