@@ -89,10 +89,10 @@
             <div class="col col-sm-12 px-0">
                 <div id="carrusel">
                     <div>
-                        <img src="img/KIDS.jpg" alt="img-fluid w-100" style="min-width: 100%; height: auto; display: block;">
+                        <img src="img/KIDS.jpg" alt="img-fluid" style="min-width: 100%; height: 1000px; display: block;">
                     </div>
                     <div>
-                        <img src="img/45.jpg" alt="img-fluid">
+                        <img src="img/campamento.jpg" alt="img-fluid" style="min-width: 100%; height: 1000px; display: block;">
                     </div>
                 </div>
             </div>
@@ -100,13 +100,13 @@
         <div class="row">
             <div class="col-md-9 mx-auto">
                 <div class="row">
-                    <div class="col-md-6 mt-2 mb-2">
-                        <img src="img/45.jpg" alt="" class="img-fluid">
+                    <div class="col-md-6 mt-2 mb-2 text-center">
+                        <img src="img/46.jpg" alt="" class="img-fluid w-75">
                     </div>
-                    <div class="col-md-6 mt-5 mb-2">
-                        <h1 class="display-4 py-2">NUESTRA PROPUESTA</h1>
-                        <h4 style="text-align: justify;">En la APF buscamos fomentar el Networking con los Padres de Familia con la finalidad de ampliar la red de contactos profesionales y de esta forma
-generar oportunidades de negocio y/o empleo dentro de nuestra comunidad.</h4>
+                    <div class="col-md-6 mt-5 mb-2 px-5">
+                        <h1 class="display-3 py-2">NUESTRA PROPUESTA</h1>
+                        <h3 style="text-align: justify;">En la APF buscamos fomentar el Networking con los Padres de Familia con la finalidad de ampliar la red de contactos profesionales y de esta forma
+generar oportunidades de negocio y/o empleo dentro de nuestra comunidad.</h3>
                     </div>
                 </div>
             </div>
@@ -131,25 +131,30 @@ generar oportunidades de negocio y/o empleo dentro de nuestra comunidad.</h4>
         <div class="row mb-5" style="background: #FAFAFA;">
             <div class="col-md-9 py-1 mx-auto text-center">
                 <div class="row mb-5">
-                    <div class="col-md-3 py-5">
+                    <div class="col-md-4 py-5 mx-auto">
                         <div class="col-12"><img src="img/APFpsd_12.png" class="img-fluid rounded-circle bg-warning py-5 px-5" alt="..."></div>
                         <div class="col-12"><h2>titulo</h2></div>
-                        <div class="col-12"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p></div> 
+                        <div class="col-12"><p>Acceso al nuevo proyecto de Networking</p></div> 
                     </div>
-                    <div class="col-md-3 py-5">
+                    <div class="col-md-4 py-5 mx-auto">
                         <div class="col-12"><img src="img/APFpsd_09.png" class="img-fluid rounded-circle bg-warning py-5 px-5" alt="..."></div>
                         <div class="col-12"><h2>titulo</h2></div>
-                        <div class="col-12"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p></div> 
+                        <div class="col-12"><p>Contribución a la realización de eventos.</p></div> 
                     </div>
-                    <div class="col-md-3 py-5">
+                    <div class="col-md-4 py-5 mx-auto">
                         <div class="col-12"><img src="img/APFpsd_06.png" class="img-fluid rounded-circle bg-warning py-5 px-5" alt="..."></div>
                         <div class="col-12"><h2>titulo</h2></div>
-                        <div class="col-12"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p></div> 
+                        <div class="col-12"><p>Contratación del seguro de vida del padre o tutor con prima preferencial.</p></div> 
                     </div>
-                    <div class="col-md-3 py-5">
+                    <div class="col-md-4 py-5 mx-auto">
                         <div class="col-12"><img src="img/APFpsd_03.png" class="img-fluid rounded-circle bg-warning py-5 px-5" alt="..."></div>
                         <div class="col-12"><h2>titulo</h2></div>
-                        <div class="col-12"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam eius incidunt earum nemo quaerat repudiandae iure magnam adipisci vero.</p></div> 
+                        <div class="col-12"><p>Precios preferenciales para los eventos organizados por la APF.</p></div> 
+                    </div>
+                    <div class="col-md-4 py-5 mx-auto">
+                        <div class="col-12"><img src="img/camp.jpg" class="img-fluid rounded-circle w-50 bg-warning py-5 px-5" alt="..."></div>
+                        <div class="col-12"><h2>titulo</h2></div>
+                        <div class="col-12"><p>Campamento Papás e Hijos 2023</p></div> 
                     </div>
                 </div>
             </div>
